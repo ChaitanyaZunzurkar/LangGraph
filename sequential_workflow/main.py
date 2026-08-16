@@ -23,7 +23,7 @@ graph.add_node("calculate_bmi", calculateBmi)
 
 # define your edges 
 graph.add_edge(START, 'calculate_bmi')
-graph.add_edge('calculate_bmi', END)
+graph.add_edgej('calculate_bmi', END)
 
 # compile your graph
 workflow = graph.compile()
