@@ -53,7 +53,7 @@ app = graph.compile()
 
 def main():
 
-    print("Your Question Answer Chatbot")
+    print("Question Answer Chatbot")
     print("Type 'exit' to quit.")
 
     while True:
